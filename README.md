@@ -2,7 +2,6 @@
 
 A modern, high-performance personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This project features dynamic GitHub integration, a sleek dark mode, and smooth animations powered by **Framer Motion**.
 
-![Portfolio Preview](https://github.com/sangmesh121/Portfolio/raw/main/src/assets/profile.png)
 
 ## 🚀 Features
 
