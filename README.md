@@ -1,16 +1,73 @@
-# React + Vite
+# Professional Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This project features dynamic GitHub integration, a sleek dark mode, and smooth animations powered by **Framer Motion**.
 
-Currently, two official plugins are available:
+![Portfolio Preview](https://github.com/sangmesh121/Portfolio/raw/main/src/assets/profile.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Dynamic GitHub Integration**: Automatically fetches and displays your latest repositories using the GitHub API.
+- **Modern UI/UX**: Responsive design with a "Glassmorphism" aesthetic, custom scrollbars, and premium typography.
+- **Theme Management**: Dark/Light mode toggle with persistence using `localStorage`.
+- **Smooth Animations**: Interactive elements and scroll-reveal effects using Framer Motion.
+- **Professional Sections**:
+  - **Hero**: Catchy intro with a clear Call to Action.
+  - **About**: Personal summary and animated stats.
+  - **Skills**: Categorized technical expertise.
+  - **Projects**: Hybrid display of manual highlights and live GitHub repos.
+  - **Certifications**: Timeline of licenses and professional achievements.
+  - **Contact**: Functional contact form with validation and social links.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: [React 19](https://react.dev/), [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **API**: [GitHub REST API](https://docs.github.com/en/rest)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Project Structure
+
+```text
+src/
+├── assets/         # Images and icons
+├── components/     # Reusable UI components (Navbar, Footer, Layout)
+├── data/           # Static data for projects, skills, etc.
+├── hooks/          # Custom hooks (useTheme, useGithubProjects)
+├── sections/       # Main page sections (Hero, About, Projects, etc.)
+├── App.jsx         # Main application entry
+└── main.jsx        # React DOM rendering
+```
+
+## ⚙️ Local Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sangmesh121/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 🤝 Contact
+
+- **Name**: Sangmeshwar Dhole
+- **Email**: [sangmesh.developer@gmail.com](mailto:sangmesh.developer@gmail.com)
+- **LinkedIn**: [linkedin.com/in/sangmesh121](https://linkedin.com/in/sangmesh121)
+- **GitHub**: [@sangmesh121](https://github.com/sangmesh121)
+
+---
+*Created with ❤️ by Sangmeshwar Dhole*
